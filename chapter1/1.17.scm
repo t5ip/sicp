@@ -3,7 +3,6 @@
 	((even? b) (* (double a) (halve b)))
 	(else (+ a (* a (- b 1))))))
 
-
 (define (even? n)
   (= (remainder n 2) 0))
 
