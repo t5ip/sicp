@@ -3,8 +3,9 @@
       a
       (gcd b (remainder2 a b))))
 
-(gcd 1024 24)
-
 (define (remainder2 a b)
   (display a) (newline)
-  
+  (remainder a b))
+
+(gcd 206 40)
+
