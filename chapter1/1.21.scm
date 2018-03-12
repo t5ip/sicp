@@ -9,4 +9,6 @@
 (define (divides? a b)
   (= (remainder a b) 0))
 
-(smallest-divisor (* 17 13))
+(smallest-divisor 199)
+(smallest-divisor 1999)
+(smallest-divisor 19999)
