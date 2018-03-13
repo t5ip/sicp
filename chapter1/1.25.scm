@@ -1,7 +1,7 @@
 (define (prime? n)
   (fast-prime? n 100))
 
-(define (fast b n)
+(define (fast-expt b n)
   (cond ((= n 0) 1)
 	((even? n) (square (fast-expt b (/ n 2))))
 	(else (* b (fast-expt b (- n 1))))))
@@ -43,4 +43,57 @@
 	((timed-prime-test n) (prime-search (+ n 1) (+ found-count 1) count))
 	(else (prime-search (+ n 1) found-count count))))
 
-(search-for-primes 10000000000000 3)
+(search-for-primes 10000 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
