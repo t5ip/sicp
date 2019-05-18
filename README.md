@@ -1,4 +1,8 @@
 # sicp
-Exercises from SIPC using Scheme
+Exercises from the book SICP using Scheme.
 
-Note: for the rest of the book, racket will be used and code will be in a different repository.
+Note: for the rest of the book, racket will be used and code will be in:
+
+github.com/t5ip/sicp-racket
+
+
